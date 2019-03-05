@@ -4,3 +4,5 @@
 |------------|---------------------------|---------------------------------------------------------------------------------------------|
 | 2019/02/19 | 介紹Python3基本語法跟觀念 | https://paper.dropbox.com/doc/ML--AX2wFX7QgRw9Q_bB9Pm7gwVRAQ-6Hg4VCokD61vwWCRkZFXj          |
 | 2019/02/26 | 資料預處理                | https://paper.dropbox.com/doc/ML-20190226--AYQCMV8NuFIbhP1l0bhLutI8Ag-KnOFDG4dwwAf7tB4s1jvC |
+| 2019/03/05 | 資料預處理2               | https://paper.dropbox.com/doc/ML-20190305-vEi1HmHIdzTUYrd8nhUuG                             |
+
