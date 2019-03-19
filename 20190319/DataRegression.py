@@ -1,3 +1,4 @@
+# Tutorial_3
 
 # Multiple Linear Regression
 
@@ -44,5 +45,25 @@ import statsmodels.formula.api as sm
 x_train = np.append(arr = np.ones((40, 1)), values = x_train, axis = 1)
 x_opt = x_train[:, [0, 1, 2, 3, 4, 5]] # why need to write 0~5
 regressor_OLS = sm.OLS(endog = y_train, exog = x_opt).fit()
-print(regressor_OLS.summary())
+r = regressor_OLS.summary()
+print(r)
 
+x_opt = x_train[:, [0, 1, 3, 4, 5]] # why need to write 0~5
+regressor_OLS = sm.OLS(endog = y_train, exog = x_opt).fit()
+r = regressor_OLS.summary()
+print(r)
+
+x_opt = x_train[:, [0, 3, 4, 5]] # why need to write 0~5
+regressor_OLS = sm.OLS(endog = y_train, exog = x_opt).fit()
+r = regressor_OLS.summary()
+print(r)
+
+x_opt = x_train[:, [0, 3, 5]] # why need to write 0~5
+regressor_OLS = sm.OLS(endog = y_train, exog = x_opt).fit()
+r = regressor_OLS.summary()
+print(r)
+
+x_opt = x_train[:, [0, 3]] # why need to write 0~5
+regressor_OLS = sm.OLS(endog = y_train, exog = x_opt).fit()
+r = regressor_OLS.summary()
+print(r)
