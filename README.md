@@ -11,4 +11,5 @@
 | 2019/04/09 | 分類(決策樹與隨機森林)             | https://paper.dropbox.com/doc/ML-20190409-UmJcetBFgmD9trpX9XRXx |
 | 2019/04/23 | 集群(K-Mean), 關聯規則學習 | https://paper.dropbox.com/doc/ML-20190423-c4qLmpWeE1czbYupP3VKD |
 | 2019/04/30 | 降維(PCA, Kernel PCA), 模型評估(K-Fold) | https://paper.dropbox.com/doc/ML-20190430-otKP0n5iuKkmldMs4rmpV |
-| 2019/05/07 | 置信區間和湯普森抽樣 | https://paper.dropbox.com/doc/ML-20190507-pV4baqYlaeXsLGEwPumld |
+| 2019/05/07 | 隨機選擇與置信區間 | https://paper.dropbox.com/doc/ML-20190507-pV4baqYlaeXsLGEwPumld |
+| 2019/05/21 | 湯普森抽樣與人工神經網路 | https://paper.dropbox.com/doc/ML-20190521-fm7XqL98GioRZ6Oj4Rub0 |
