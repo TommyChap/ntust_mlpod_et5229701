@@ -1,16 +1,5 @@
 # Tutorial 19_Artificial Neural Network
 
-# Installing Tensorflow and Keras
- 
-# 1. On Mac: open "Terminal"
-#    On Windows: open "Anaconda Prompt"  
-
-# 2. Type:
-# conda install tensorflow
-# conda install -c conda-forge keras
-# conda update --all
-
-
 # Part 1 - Data Preprocessing
 
 # Importing the libraries
@@ -49,3 +38,31 @@ X_test = sc.transform(X_test)
 import keras
 from keras.models import Sequential
 from keras.layers import Dense
+
+# Initialising the ANN
+classifier = Sequential()
+
+# Adding the input layer and the first hidden layer
+classifier.add(Dense(units = 6, kernel_initializer = 'uniform', activation = 'relu', input_dim = 11))
+
+# Other hidden Layer
+classifier.add(Dense(units = 10, kernel_initializer = 'uniform', activation = 'relu'))
+classifier.add(Dense(units = 4, kernel_initializer = 'uniform', activation = 'relu'))
+classifier.add(Dense(units = 6, kernel_initializer = 'uniform', activation = 'relu'))
+
+# Adding the output layer
+classifier.add(Dense(units = 1, kernel_initializer = 'uniform', activation = 'sigmoid'))
+
+# Compiling the ANN
+classifier.compile(optimizer = 'adam', loss = 'binary_crossentropy', metrics = ['accuracy'])
+
+# Fitting the ANN to the Training set
+classifier.fit(X_train, y_train, batch_size = 10, epochs = 100)
+
+# Predicting the Test set results
+y_pred = classifier.predict(X_test)
+y_pred = (y_pred > 0.5)
+
+# Making the Confusion Matrix
+from sklearn.metrics import confusion_matrix
+cm = confusion_matrix(y_test, y_pred)
