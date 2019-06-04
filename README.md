@@ -14,3 +14,4 @@
 | 2019/05/07 | 隨機選擇與置信區間 | https://paper.dropbox.com/doc/ML-20190507-pV4baqYlaeXsLGEwPumld |
 | 2019/05/21 | 湯普森抽樣與人工神經網路 | https://paper.dropbox.com/doc/ML-20190521-fm7XqL98GioRZ6Oj4Rub0 |
 | 2019/05/28 | 人工神經網路與模型選擇 | https://paper.dropbox.com/doc/ML-20190528-rpVJjuoeAy5ggcwhM2Yks |
+| 2019/06/04 | 模型選擇與捲積神經網路 | https://paper.dropbox.com/doc/ML-20190604-uAUsRE0n468Zc76I4gxYd |
